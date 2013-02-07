@@ -1,5 +1,5 @@
 <?php
-namespace documenting;
+namespace romaninsh/documenting;
 class View_Example extends \View {
     function init(){
         parent::init();
@@ -63,7 +63,7 @@ class View_Example extends \View {
     function defaultTemplate(){
         $l=$this->api->locate('addons','documenting','location');
 
-        $this->api->pathfinder->addLocation($this->api->locate('addons','documenting'),array(
+        $this->api->pathfinder->addLocation($this->api->locate('addons','romaninsh/documenting'),array(
             'template'=>'templates',
             'css'=>'templates/css',
             'js'=>'js'
