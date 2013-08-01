@@ -11,3 +11,12 @@ $this->add('documenting/View_Example')
 2. That's all!
 
 This module bundles syntaxhighlighter which is copyright (c) Alex Gorbatchev
+
+
+Things to do in this add-on:
+
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
