@@ -61,9 +61,9 @@ class View_Example extends \View {
         return $page;
     }
     function defaultTemplate(){
-        $l=$this->api->locate('addons','romaninsh/documenting','location');
+        $l=$this->api->locate('addons',__NAMESPACE__,'location');
 
-        $this->api->pathfinder->addLocation($this->api->locate('addons','romaninsh/documenting'),array(
+        $this->api->pathfinder->addLocation($this->api->locate('addons',__NAMESPACE__),array(
             'template'=>'templates',
             'css'=>'templates/css',
             'js'=>'js'
